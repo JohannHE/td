@@ -57,9 +57,9 @@ p{
 }
 
 /* As jy kleur van navbuttons wil verander */
-/* .navbar-dark .navbar-nav .nav-link{
+.navbar-light .navbar-brand{
   color: aliceblue;
-} */
+}
 
 /* Download Buttons - margin around it */
 .download-button{
