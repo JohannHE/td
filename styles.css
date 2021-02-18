@@ -1,0 +1,203 @@
+
+body{
+  font-family: "Montserrat";
+}
+#title{
+  background-color: #ff4c68;
+  color: #fff;
+}
+
+.container-fluid{
+padding: 3%  15% 10%;
+}
+
+h1{
+  font-family: "Montserrat-Black";
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+h2{
+  font-family: "Montserrat-Bold";
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+ /* h3 en p in features afdeling */
+h3{
+  font-family: "Montserrat-bold"
+}
+
+p{
+  font-weight: bolder;
+  color: #8f8f8f;
+}
+/* Navigation Bar */
+/* Padding tussen navbar en image 0top 0l&r 4.5bottom Tussen tindog en Meet new...*/
+.navbar{
+  padding: 0 0 4.5rem;
+}
+
+/* Font vir brand name  tindog*/
+.navbar-brand{
+  font-family: "Ubuntu";
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+/* Spasie tussen nav items  Contact Pricing Download*/
+.nav-item{
+  padding: 0 10px;
+}
+
+/* Font size van nav items */
+.nav-link{
+  font-size: 1.3rem;
+  font-family: "Montserrat-Light";
+}
+
+/* As jy kleur van navbuttons wil verander */
+/* .navbar-dark .navbar-nav .nav-link{
+  color: aliceblue;
+} */
+
+/* Download Buttons - margin around it */
+.download-button{
+  margin: 5% 3% 5% 0;
+}
+
+
+/* Title Image */
+
+.title-image{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Features section */
+  /* Groot feature box rondom 3 kleiner boxies */
+#features{
+padding: 7% 15%;  /*padding aan biuterant van feature box*/
+background-color: #fff;
+position: relative;
+background-color: #faf3e0;
+}
+
+.feature-box{
+  text-align: center;
+  padding: 5%;   /*padding rondom indiv features*/
+}
+
+/* Checkmark, bullseye and heart icons */
+.icon{
+color: #ef8172;
+margin-bottom: 1rem;
+}
+
+.icon:hover{
+  color: #91091e;
+}
+
+.circular{
+  height: 150px;
+  width: 170px;
+  border-radius: 75%
+}
+
+/* Testimonial section */
+
+#testimonials {
+
+text-align: center;
+background-color: #ef8172;
+color: #fff;
+}
+
+.testimonial-image{
+  width: 25%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item{
+padding: 7% 7%;
+}
+
+#press{
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-logo{
+  width: 15%;
+  margin: 20px 20px 50px;
+}
+
+/* Pricing section */
+
+#pricing{
+  padding: 100px 100px 30px;
+  text-align: center;
+  background-color: #faf3e0;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+/* CSS Media Query - Om website mobile responsive te maak */
+@media (max-width: 1000px){
+
+#title{
+  text-align: center;
+}
+
+  .title-image{
+    position: static;
+    transform: rotate(0);
+  }
+}
+
+.card-header{
+  background-color: #f5d782;
+}
+
+.card-body{
+  background-color: #ffee93;
+}
+
+/* Call to action*/
+
+#cta{
+  text-align: center;
+  background-color: #ffdcdc;
+  padding: 7% 22%;
+}
+
+.cta-font{
+ padding-bottom: 20px;
+ font-size: 40px;
+}
+
+/* Footer */
+
+.footer-icn{
+  padding: 2px 10px;
+  margin: 5px;
+}
+
+
+#footer{
+  text-align: center;
+  padding-top: 20px;
+}
+
+.btt{
+  color: black;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
