@@ -199,6 +199,13 @@ p {
   .navbar-light .navbar-nav .nav-link {
     color: black;
   }
+  
+  .btt {
+    color: black;
+    font-family: arial;
+    font-size: 40px;
+    text-align: center;
+  }
 
   }
 
