@@ -166,6 +166,13 @@ p {
   padding: 3% 2%;
 }
 
+.btt {
+  color: black;
+  font-family: arial;
+  font-size: 20px;
+  text-align: center;
+}
+
 /* CSS Media Query - Om website mobile responsive te maak */
 @media (max-width: 1000px) {
   #title {
@@ -228,9 +235,4 @@ p {
   padding-top: 20px;
 }
 
-.btt {
-  color: black;
-  font-family: arial;
-  font-size: 20px;
-  text-align: center;
-}
+
