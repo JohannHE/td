@@ -1,88 +1,94 @@
 
-body{
+body {
   font-family: "Montserrat";
 }
-#title{
+
+#title {
   background-color: #ff4c68;
   color: #fff;
 }
 
-.container-fluid{
-padding: 3%  15% 10%;
+.container-fluid {
+  padding: 3% 15% 10%;
 }
 
-h1{
+h1 {
   font-family: "Montserrat-Black";
   font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2{
+h2 {
   font-family: "Montserrat-Bold";
   font-size: 3rem;
   line-height: 1.5;
 }
 
- /* h3 en p in features afdeling */
-h3{
+/* h3 en p in features afdeling */
+h3 {
   font-family: "Montserrat-bold"
 }
 
-p{
+p {
   font-weight: bolder;
   color: #8f8f8f;
 }
+
 /* Navigation Bar */
 /* Padding tussen navbar en image 0top 0l&r 4.5bottom Tussen tindog en Meet new...*/
-.navbar{
+.navbar {
   padding: 0 0 4.5rem;
 }
 
 /* Font vir brand name  tindog*/
-.navbar-brand{
+.navbar-brand {
   font-family: "Ubuntu";
   font-size: 2.5rem;
   font-weight: bold;
 }
 
 /* Spasie tussen nav items  Contact Pricing Download*/
-.nav-item{
+.nav-item {
   padding: 0 10px;
 }
 
 /* Font size van nav items */
-.nav-link{
-  font-size: 1.8rem;
+.nav-link {
+  font-size: 1.2rem;
   font-family: "Montserrat-Light";
 }
 
 /* As jy kleur van navbuttons wil verander */
-.navbar-light .navbar-brand{
+.navbar-light .navbar-brand {
   color: aliceblue;
 }
 
 .navbar-light .navbar-nav .nav-link {
-    color:black;
-  }
+  color: aliceblue;
+}
 
-.navbar-toggler{
+.navbar-light .navbar-toggler {
+  padding-top: 2%;
+  padding-bottom: 2%;
+
+}
+
+.navbar-toggler {
   padding-top: 2%;
   padding-bottom: 2%;
 }
 
-.navbar-toggler-icon{
+.navbar-toggler-icon {
   font-size: 2em;
 }
 
 /* Download Buttons - margin around it */
-.download-button{
+.download-button {
   margin: 5% 3% 5% 0;
 }
 
-
 /* Title Image */
-
-.title-image{
+.title-image {
   width: 60%;
   transform: rotate(25deg);
   position: absolute;
@@ -90,125 +96,139 @@ p{
 }
 
 /* Features section */
-  /* Groot feature box rondom 3 kleiner boxies */
-#features{
-padding: 7% 15%;  /*padding aan biuterant van feature box*/
-background-color: #fff;
-position: relative;
-background-color: #faf3e0;
+/* Groot feature box rondom 3 kleiner boxies */
+#features {
+  padding: 7% 15%;
+  /*padding aan biuterant van feature box*/
+  background-color: #fff;
+  position: relative;
+  background-color: #faf3e0;
 }
 
-.feature-box{
+.feature-box {
   text-align: center;
-  padding: 5%;   /*padding rondom indiv features*/
+  padding: 5%;
+  /*padding rondom indiv features*/
 }
 
 /* Checkmark, bullseye and heart icons */
-.icon{
-color: #ef8172;
-margin-bottom: 1rem;
+.icon {
+  color: #ef8172;
+  margin-bottom: 1rem;
 }
 
-.icon:hover{
+.icon:hover {
   color: #91091e;
 }
 
-.circular{
+.circular {
   height: 150px;
   width: 170px;
   border-radius: 75%
 }
 
 /* Testimonial section */
-
 #testimonials {
-
-text-align: center;
-background-color: #ef8172;
-color: #fff;
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
 }
 
-.testimonial-image{
+.testimonial-image {
   width: 25%;
   border-radius: 100%;
   margin: 20px;
 }
 
-.carousel-item{
-padding: 7% 7%;
+.carousel-item {
+  padding: 7% 7%;
 }
 
-#press{
+#press {
   background-color: #ef8172;
   text-align: center;
   padding-bottom: 3%;
 }
 
-.press-logo{
+.press-logo {
   width: 15%;
   margin: 20px 20px 50px;
 }
 
 /* Pricing section */
-
-#pricing{
+#pricing {
   padding: 100px 100px 30px;
   text-align: center;
   background-color: #faf3e0;
 }
 
-.pricing-column{
+.pricing-column {
   padding: 3% 2%;
 }
 
 /* CSS Media Query - Om website mobile responsive te maak */
-@media (max-width: 1000px){
+@media (max-width: 1000px) {
+  #title {
+    text-align: center;
+  }
 
-#title{
-  text-align: center;
-}
-
-  .title-image{
+  .title-image {
     position: static;
     transform: rotate(0);
   }
-}
 
-.card-header{
+  .navbar-light .navbar-toggler {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    color: black;
+    border: 5px solid;
+  }
+
+  .nav-link {
+    font-size: 1.8rem;
+    font-family: "Montserrat-Light";
+  }
+
+  .navbar-light .navbar-nav .nav-link {
+    color: black;
+  }
+
+  }
+
+  /* Einde van mobile seksie */
+
+.card-header {
   background-color: #f5d782;
 }
 
-.card-body{
+.card-body {
   background-color: #ffee93;
 }
 
 /* Call to action*/
-
-#cta{
+#cta {
   text-align: center;
   background-color: #ffdcdc;
   padding: 7% 22%;
 }
 
-.cta-font{
- padding-bottom: 20px;
- font-size: 40px;
+.cta-font {
+  padding-bottom: 20px;
+  font-size: 40px;
 }
 
 /* Footer */
-
-.footer-icn{
+.footer-icn {
   padding: 2px 10px;
   margin: 5px;
 }
 
-
-#footer{
+#footer {
   text-align: center;
   padding-top: 20px;
 }
 
-.btt{
+.btt {
   color: black;
   font-family: arial;
   font-size: 20px;
